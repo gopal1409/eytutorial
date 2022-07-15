@@ -34,8 +34,6 @@ git --version
 ###########git branching#######
 39  git branch
    40  git branch crazy
-
- 
    43  git branch
    44  git checkout crazy
    45  git branch
