@@ -14,3 +14,13 @@ git --version
    16  rm -rf .git
    17  git status
    18  git init
+   ########our first version
+    21  git add calc.py
+   22  git config --global user.name "gopal das"
+   23  git config --global user.email "gopal1409@gmail.com"
+   24  git reset
+   25  git add calc.py
+   26  git commit -m "intial commit"
+   27  git log
+
+
