@@ -1,1 +1,16 @@
 git --version
+#######intialzied our git directory##########
+ 5  mkdir project
+    6  cd project/
+    7  touch calc.py
+    8  touch auth
+    9  touch keypair
+   10  git status
+   11  git init
+   12  ls -la
+   13  cd .git
+   14  ls
+   15  cd ..
+   16  rm -rf .git
+   17  git status
+   18  git init
