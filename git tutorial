@@ -31,4 +31,24 @@ git --version
    34  git add .
    35  git commit -m "start modifying calc"
    36  git log
+###########git branching#######
+39  git branch
+   40  git branch crazy
+
+ 
+   43  git branch
+   44  git checkout crazy
+   45  git branch
+   46  nano calc.py
+   47  git status
+   48  git add .
+   49  git commit -m "new crazy feature added"
+   50  git log
+   51  git checkout master
+   52  git branch
+   53  cat calc.py
+   54  git checkout crazy
+   55  cat calc.py
+   56  git checkout master
+   57  git branch -a
 
