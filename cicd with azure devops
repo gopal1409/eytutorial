@@ -3,3 +3,6 @@
    10  git add .
    11  git commit -m "spring chat app"
    12  git log
+  24  git remote add origin git@github.com:gopal1409/eychatapp.git
+   25  git push
+   26  git push origin master
