@@ -1,4 +1,7 @@
-    8  rm -rf .git
+
+    git clone https://github.com/gopal1409/springboot-chat-app.git
+cd springboot-chat-app
+8  rm -rf .git
     9  git init
    10  git add .
    11  git commit -m "spring chat app"
