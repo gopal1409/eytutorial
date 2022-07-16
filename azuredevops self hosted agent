@@ -20,4 +20,11 @@ docker --version
  69  mkdir myagent && cd myagent
    71  wget https://vstsagentpackage.azureedge.net/agent/2.204.0/vsts-agent-linux-x64-2.204.0.tar.gz
    72  tar zxvf vsts-agent-linux-x64-2.204.0.tar.gz
+####how to configure the agent  
+./config.sh
+###but once you go to azure portal the agent will be offline to make it online
+./run.sh
+
+
+
 
