@@ -13,3 +13,7 @@ echo "deb [arch=$(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.
 sudo apt-get update
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
 docker --version
+#####add user as sudo user
+  60  usermod -aG sudo gopal
+   61  usermod -aG docker gopal
+
