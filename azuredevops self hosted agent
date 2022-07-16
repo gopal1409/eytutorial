@@ -16,4 +16,8 @@ docker --version
 #####add user as sudo user
   60  usermod -aG sudo gopal
    61  usermod -aG docker gopal
+######install azure agent
+ 69  mkdir myagent && cd myagent
+   71  wget https://vstsagentpackage.azureedge.net/agent/2.204.0/vsts-agent-linux-x64-2.204.0.tar.gz
+   72  tar zxvf vsts-agent-linux-x64-2.204.0.tar.gz
 
