@@ -25,6 +25,9 @@ docker --version
 ###but once you go to azure portal the agent will be offline to make it online
 ./run.sh
 
+####if you want to run the agent as background process
+https://github.com/gopal1409/eytutorial/blob/main/azure-pipeline-code
+
 
 
 
