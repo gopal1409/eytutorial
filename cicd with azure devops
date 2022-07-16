@@ -1,0 +1,5 @@
+    8  rm -rf .git
+    9  git init
+   10  git add .
+   11  git commit -m "spring chat app"
+   12  git log
