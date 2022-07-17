@@ -25,5 +25,11 @@ pipeline {
                junit '**/target/surefire-reports/*.xml'
             }
         }
+        stage('checkstyle') {
+            steps {
+                // Get some code from a GitHub repository
+               sh 'mvn checkstyle:checkstyle'
+            }
+        }
     }
 }
