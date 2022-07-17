@@ -38,5 +38,11 @@ pipeline {
                jacoco()
             }
         }
+        stage('sonar int') {
+            steps {
+                // Get some code from a GitHub repository
+              sh 'mvn clean verify sonar:sonar -Dsonar.projectKey=chatapp -Dsonar.host.url=http://20.121.121.200:9000 -Dsonar.login=sqp_006ab8b16271f6ce23ea9d60f6bea7a919319d99'
+            }
+        }
     }
 }
