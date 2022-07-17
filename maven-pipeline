@@ -10,10 +10,13 @@ pipeline {
         stage('Poll from SCM') {
             steps {
                 // Get some code from a GitHub repository
-                git 'https://github.com/jglick/simple-maven-project-with-tests.git'
-
-                // Run Maven on a Unix agent.
-                
+               git credentialsId: 'git-token', url: 'git@github.com:gopal1409/eychatapp.git'
+            }
+        }
+        stage('maven build') {
+            steps {
+                // Get some code from a GitHub repository
+               sh 'mvn -Dmaven.test.failure.ignore=true clean package'
             }
         }
     }
